@@ -75,7 +75,7 @@ function resumoDaAta() {
   var ultimaLinha = aba.getLastRow();
   
   // Definir as colunas de interesse
-  var colunas = ['B', 'C', 'O', 'N', 'D', 'E', 'F', 'G', 'I', 'H', 'J', 'K', 'L', 'M', 'P', 'Q', 'W', 'Y', 'Z'];
+  var colunas = ['B', 'C', 'O', 'N', 'D', 'E', 'F', 'G', 'I', 'H', 'J', 'K', 'L', 'M', 'P', 'Q', 'T', 'W', 'Y', 'Z'];
   
   // Armazenar os valores
   var valores = {};
@@ -136,6 +136,9 @@ function resumoDaAta() {
   }
   if (valores['Y'] !== "") {
   mensagem += "Eleição de Encargo: " + valores['Y'] + "\n";
+  }
+  if (valores['T'] !== "") {
+  mensagem += "Informações adicionais: " + valores['T'] + "\n";
   }
   if (valores['M'] !== "") {
   mensagem += "Observações: " + valores['M'];
