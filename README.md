@@ -1,10 +1,10 @@
 # Resumo da Ata do Grupo QuarenteNA
 
-Este é um projeto que utiliza o Google Apps Script para automatizar a geração de resumos a partir de uma planilha do Google Sheets e enviar esses resumos via Telegram.
+Este é um projeto que utiliza o Google Apps Script para automatizar a geração de resumos a partir de uma planilha do Google Sheets e enviar esses resumos via Telegram e WhatsApp.
 
 ## Como Funciona
 
-O script lê os dados da planilha 'Form Responses 1' no Google Sheets e gera um resumo com informações relevantes. Em seguida, envia esse resumo para um grupo no Telegram.
+O script lê os dados da planilha 'Form Responses 1' no Google Sheets e gera um resumo com informações relevantes. Em seguida, envia esse resumo para um grupo no Telegram e também para um número ou grupo no WhatsApp usando a EvolutionAPI.
 
 ## Pré-requisitos
 
@@ -13,18 +13,24 @@ Antes de executar este projeto, você precisará:
 - Ter uma conta no Google.
 - Ter acesso a uma planilha do Google Sheets.
 - Criar um bot no Telegram e obter um token de acesso.
+- Obter um token de acesso da EvolutionAPI.
+
+## Vídeos Instrutivos
+
+- [Como instalar a EvolutionAPI](https://youtu.be/ZLBwNiDtfwU)
+- [Como utilizar a EvolutionAPI](https://youtu.be/jv-5N0mPRro)
 
 ## Configuração
 
 1. Faça uma cópia da planilha de exemplo fornecida ou crie sua própria planilha com os dados relevantes.
 
-2. No script `resumoDaAta.gs`, substitua o token de acesso do bot do Telegram e o chat ID pelo seu próprio.
+2. No script `resumoDaAta.gs`, substitua o token de acesso do bot do Telegram, o chat ID e o token da EvolutionAPI pelos seus próprios.
 
-3. Configure um gatilho de execução para que a função `resumoDaAta` seja acionada automaticamente em intervalos específicos.
+3. Configure um gatilho de execução para que a função `resumoDaAta` seja acionada automaticamente ao enviar o formulário.
 
 ## Execução
 
-Após configurar tudo corretamente, o script será executado automaticamente conforme configurado no gatilho. Ele lerá os dados da planilha, gerará o resumo e o enviará para o grupo no Telegram.
+Após configurar tudo corretamente, o script será executado automaticamente conforme configurado no gatilho. Ele lerá os dados da planilha, gerará o resumo e o enviará para o grupo no Telegram e o número ou grupo no WhatsApp.
 
 ## Contribuições
 
