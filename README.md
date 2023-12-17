@@ -17,8 +17,9 @@ Antes de executar este projeto, você precisará:
 
 ## Vídeos Instrutivos
 
-- [Como instalar a EvolutionAPI](https://youtu.be/ZLBwNiDtfwU)
-- [Como utilizar a EvolutionAPI](https://youtu.be/jv-5N0mPRro)
+[![Como instalar a EvolutionAPI](https://img.youtube.com/vi/ZLBwNiDtfwU/0.jpg)](https://youtu.be/ZLBwNiDtfwU)
+
+[![Como utilizar a EvolutionAPI](https://img.youtube.com/vi/jv-5N0mPRro/0.jpg)](https://youtu.be/jv-5N0mPRro)
 
 ## Configuração
 
